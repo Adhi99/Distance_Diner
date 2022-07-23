@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    app:circularflow_radiusInDP="12"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/container"
+        android:layout_width="359dp"
+        android:layout_height="643dp"
+        android:layout_marginBottom="52dp"
+        android:background="#3BEFF3EE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewmsg"
+        android:layout_width="238dp"
+        android:layout_height="34dp"
+        android:text="Lunch Order"
+        android:textColor="@color/teal_200"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toEndOf="@+id/btn7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg6"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg6"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <TextView
+        android:id="@+id/textViewmsg6"
+        android:layout_width="270dp"
+        android:layout_height="28dp"
+        android:text="********************"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg5"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <TextView
+        android:id="@+id/textViewmsg5"
+        android:layout_width="238dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="17dp"
+        android:text="Breakfast Order"
+        android:textColor="@color/teal_200"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn4"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/custom_button"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg3"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="@+id/container"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg3"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/textViewmsg3"
+        android:layout_width="270dp"
+        android:layout_height="28dp"
+        android:text="********************"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg4"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textViewmsg4"
+        android:layout_width="238dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="22dp"
+        android:text="Dinner Order"
+        android:textColor="@color/teal_200"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3"
+        app:layout_constraintVertical_bias="0.038" />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="@+id/container"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg2"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="388dp"
+        android:background="@drawable/custom_button"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="@+id/container"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmsg2"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/textViewmsg2"
+        android:layout_width="270dp"
+        android:layout_height="28dp"
+        android:text="********************"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container"
+        app:layout_constraintVertical_bias="0.227" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

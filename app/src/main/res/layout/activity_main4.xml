@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    app:circularflow_radiusInDP="12"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/container9"
+        android:layout_width="371dp"
+        android:layout_height="673dp"
+        android:layout_marginBottom="28dp"
+        android:background="#39EFF3EE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="192dp"
+        android:layout_height="33dp"
+        android:text="Address"
+        android:textColor="@color/teal_200"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="233dp"
+        android:layout_height="43dp"
+        android:text="Contact Number"
+        android:textColor="@color/teal_200"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container9"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/custom_button"
+        android:text="Discard"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="@+id/container9" />
+
+    <Button
+        android:id="@+id/btn30"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/custom_button"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="@+id/container9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="192dp"
+        android:layout_height="33dp"
+        android:text="Name"
+        android:textColor="@color/teal_200"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container9"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <EditText
+        android:id="@+id/et_msg22"
+        android:layout_width="283dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="283dp"
+        android:layout_height="52dp"
+        android:background="@drawable/rounded"
+        android:ems="10"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container9"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded"
+        android:ems="10"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/container9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.097" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
